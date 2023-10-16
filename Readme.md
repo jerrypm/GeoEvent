@@ -18,8 +18,8 @@ These instructions will help you get a copy of the project up and running on you
 
 ### Prerequisites
 
-- Xcode (latest version)
-- An iOS device or simulator running iOS (minimum deployment target as required in the project)
+- Xcode (Min Version 14.1)
+- An iOS device or simulator running iOS (minimum iOS 15 to run this project)
 
 ### Follow this Step
 
