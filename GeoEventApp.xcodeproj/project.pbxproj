@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCED0D7D2ADCAFD0007D00C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0D7C2ADCAFD0007D00C0 /* AppDelegate.swift */; };
+		BCED0D7F2ADCAFD0007D00C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0D7E2ADCAFD0007D00C0 /* SceneDelegate.swift */; };
+		BCED0D812ADCAFD0007D00C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0D802ADCAFD0007D00C0 /* ViewController.swift */; };
+		BCED0D842ADCAFD0007D00C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED0D822ADCAFD0007D00C0 /* Main.storyboard */; };
+		BCED0D862ADCAFD2007D00C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCED0D852ADCAFD2007D00C0 /* Assets.xcassets */; };
+		BCED0D892ADCAFD2007D00C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCED0D872ADCAFD2007D00C0 /* LaunchScreen.storyboard */; };
+		BCED0D942ADCB3BD007D00C0 /* GeoLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0D932ADCB3BD007D00C0 /* GeoLocation.swift */; };
+		BCED0D962ADCB3E7007D00C0 /* EventViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0D952ADCB3E7007D00C0 /* EventViewModel.swift */; };
+		BCED0D992ADCB42E007D00C0 /* EventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0D972ADCB42E007D00C0 /* EventViewController.swift */; };
+		BCED0D9A2ADCB42E007D00C0 /* EventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCED0D982ADCB42E007D00C0 /* EventViewController.xib */; };
+		BCED0DA12ADCF294007D00C0 /* Extension+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DA02ADCF294007D00C0 /* Extension+UIImage.swift */; };
+		BCED0DA32ADD21F5007D00C0 /* View+CustomAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DA22ADD21F5007D00C0 /* View+CustomAnnotationView.swift */; };
+		BCED0DA62ADD288E007D00C0 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DA42ADD288E007D00C0 /* AddEventViewController.swift */; };
+		BCED0DA72ADD288E007D00C0 /* AddEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCED0DA52ADD288E007D00C0 /* AddEventViewController.xib */; };
+		BCED0DAA2ADD3701007D00C0 /* ListEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DA82ADD3701007D00C0 /* ListEventViewController.swift */; };
+		BCED0DAB2ADD3701007D00C0 /* ListEventViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCED0DA92ADD3701007D00C0 /* ListEventViewController.xib */; };
+		BCED0DAD2ADD375A007D00C0 /* Extension+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DAC2ADD375A007D00C0 /* Extension+TableView.swift */; };
+		BCED0DB02ADD3A21007D00C0 /* View+Corner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DAF2ADD3A21007D00C0 /* View+Corner.swift */; };
+		BCED0DB32ADD3AD7007D00C0 /* ListEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DB12ADD3AD7007D00C0 /* ListEventTableViewCell.swift */; };
+		BCED0DB42ADD3AD7007D00C0 /* ListEventTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCED0DB22ADD3AD7007D00C0 /* ListEventTableViewCell.xib */; };
+		BCED0DB62ADD3FB5007D00C0 /* EventRelams.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCED0DB52ADD3FB5007D00C0 /* EventRelams.swift */; };
+		C99287F27DADAA4901BD5634 /* Pods_GeoEventApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F34075AE89BDF73F9F96DFDA /* Pods_GeoEventApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		192E242DFB3D7183CF892B69 /* Pods-GeoEventApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoEventApp.release.xcconfig"; path = "Target Support Files/Pods-GeoEventApp/Pods-GeoEventApp.release.xcconfig"; sourceTree = "<group>"; };
+		B3CE67520569D829D4B76FD3 /* Pods-GeoEventApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoEventApp.debug.xcconfig"; path = "Target Support Files/Pods-GeoEventApp/Pods-GeoEventApp.debug.xcconfig"; sourceTree = "<group>"; };
+		BCED0D792ADCAFD0007D00C0 /* GeoEventApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoEventApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCED0D7C2ADCAFD0007D00C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCED0D7E2ADCAFD0007D00C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCED0D802ADCAFD0007D00C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCED0D832ADCAFD0007D00C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCED0D852ADCAFD2007D00C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCED0D882ADCAFD2007D00C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCED0D8A2ADCAFD2007D00C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCED0D932ADCB3BD007D00C0 /* GeoLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoLocation.swift; sourceTree = "<group>"; };
+		BCED0D952ADCB3E7007D00C0 /* EventViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewModel.swift; sourceTree = "<group>"; };
+		BCED0D972ADCB42E007D00C0 /* EventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventViewController.swift; sourceTree = "<group>"; };
+		BCED0D982ADCB42E007D00C0 /* EventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventViewController.xib; sourceTree = "<group>"; };
+		BCED0DA02ADCF294007D00C0 /* Extension+UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIImage.swift"; sourceTree = "<group>"; };
+		BCED0DA22ADD21F5007D00C0 /* View+CustomAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+CustomAnnotationView.swift"; sourceTree = "<group>"; };
+		BCED0DA42ADD288E007D00C0 /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		BCED0DA52ADD288E007D00C0 /* AddEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddEventViewController.xib; sourceTree = "<group>"; };
+		BCED0DA82ADD3701007D00C0 /* ListEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEventViewController.swift; sourceTree = "<group>"; };
+		BCED0DA92ADD3701007D00C0 /* ListEventViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListEventViewController.xib; sourceTree = "<group>"; };
+		BCED0DAC2ADD375A007D00C0 /* Extension+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extension+TableView.swift"; sourceTree = "<group>"; };
+		BCED0DAF2ADD3A21007D00C0 /* View+Corner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Corner.swift"; sourceTree = "<group>"; };
+		BCED0DB12ADD3AD7007D00C0 /* ListEventTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListEventTableViewCell.swift; sourceTree = "<group>"; };
+		BCED0DB22ADD3AD7007D00C0 /* ListEventTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListEventTableViewCell.xib; sourceTree = "<group>"; };
+		BCED0DB52ADD3FB5007D00C0 /* EventRelams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRelams.swift; sourceTree = "<group>"; };
+		F34075AE89BDF73F9F96DFDA /* Pods_GeoEventApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoEventApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCED0D762ADCAFD0007D00C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99287F27DADAA4901BD5634 /* Pods_GeoEventApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A42BF916615AFBB8EA92B59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3CE67520569D829D4B76FD3 /* Pods-GeoEventApp.debug.xcconfig */,
+				192E242DFB3D7183CF892B69 /* Pods-GeoEventApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BCED0D702ADCAFD0007D00C0 = {
+			isa = PBXGroup;
+			children = (
+				BCED0D7B2ADCAFD0007D00C0 /* GeoEventApp */,
+				BCED0D7A2ADCAFD0007D00C0 /* Products */,
+				4A42BF916615AFBB8EA92B59 /* Pods */,
+				D007A19ED14A0A1BABA3A1E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCED0D7A2ADCAFD0007D00C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0D792ADCAFD0007D00C0 /* GeoEventApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCED0D7B2ADCAFD0007D00C0 /* GeoEventApp */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0DAE2ADD388C007D00C0 /* Cells */,
+				BCED0D9F2ADCF24F007D00C0 /* Utilities */,
+				BCED0D922ADCB006007D00C0 /* Model */,
+				BCED0D912ADCAFFE007D00C0 /* ViewModel */,
+				BCED0D902ADCAFF6007D00C0 /* View */,
+				BCED0D7C2ADCAFD0007D00C0 /* AppDelegate.swift */,
+				BCED0D7E2ADCAFD0007D00C0 /* SceneDelegate.swift */,
+				BCED0D802ADCAFD0007D00C0 /* ViewController.swift */,
+				BCED0D822ADCAFD0007D00C0 /* Main.storyboard */,
+				BCED0D852ADCAFD2007D00C0 /* Assets.xcassets */,
+				BCED0D872ADCAFD2007D00C0 /* LaunchScreen.storyboard */,
+				BCED0D8A2ADCAFD2007D00C0 /* Info.plist */,
+			);
+			path = GeoEventApp;
+			sourceTree = "<group>";
+		};
+		BCED0D902ADCAFF6007D00C0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0D972ADCB42E007D00C0 /* EventViewController.swift */,
+				BCED0D982ADCB42E007D00C0 /* EventViewController.xib */,
+				BCED0DA42ADD288E007D00C0 /* AddEventViewController.swift */,
+				BCED0DA52ADD288E007D00C0 /* AddEventViewController.xib */,
+				BCED0DA82ADD3701007D00C0 /* ListEventViewController.swift */,
+				BCED0DA92ADD3701007D00C0 /* ListEventViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BCED0D912ADCAFFE007D00C0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0D952ADCB3E7007D00C0 /* EventViewModel.swift */,
+				BCED0DB52ADD3FB5007D00C0 /* EventRelams.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		BCED0D922ADCB006007D00C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0D932ADCB3BD007D00C0 /* GeoLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BCED0D9F2ADCF24F007D00C0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0DAC2ADD375A007D00C0 /* Extension+TableView.swift */,
+				BCED0DA02ADCF294007D00C0 /* Extension+UIImage.swift */,
+				BCED0DA22ADD21F5007D00C0 /* View+CustomAnnotationView.swift */,
+				BCED0DAF2ADD3A21007D00C0 /* View+Corner.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BCED0DAE2ADD388C007D00C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BCED0DB12ADD3AD7007D00C0 /* ListEventTableViewCell.swift */,
+				BCED0DB22ADD3AD7007D00C0 /* ListEventTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D007A19ED14A0A1BABA3A1E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F34075AE89BDF73F9F96DFDA /* Pods_GeoEventApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCED0D782ADCAFD0007D00C0 /* GeoEventApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCED0D8D2ADCAFD2007D00C0 /* Build configuration list for PBXNativeTarget "GeoEventApp" */;
+			buildPhases = (
+				12BE6086E0C5CD5AD1BA5EEE /* [CP] Check Pods Manifest.lock */,
+				BCED0D752ADCAFD0007D00C0 /* Sources */,
+				BCED0D762ADCAFD0007D00C0 /* Frameworks */,
+				BCED0D772ADCAFD0007D00C0 /* Resources */,
+				2EC09421FDD759C44A15E0E9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoEventApp;
+			productName = GeoEventApp;
+			productReference = BCED0D792ADCAFD0007D00C0 /* GeoEventApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCED0D712ADCAFD0007D00C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					BCED0D782ADCAFD0007D00C0 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = BCED0D742ADCAFD0007D00C0 /* Build configuration list for PBXProject "GeoEventApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCED0D702ADCAFD0007D00C0;
+			productRefGroup = BCED0D7A2ADCAFD0007D00C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCED0D782ADCAFD0007D00C0 /* GeoEventApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCED0D772ADCAFD0007D00C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED0DB42ADD3AD7007D00C0 /* ListEventTableViewCell.xib in Resources */,
+				BCED0DA72ADD288E007D00C0 /* AddEventViewController.xib in Resources */,
+				BCED0D892ADCAFD2007D00C0 /* LaunchScreen.storyboard in Resources */,
+				BCED0D9A2ADCB42E007D00C0 /* EventViewController.xib in Resources */,
+				BCED0DAB2ADD3701007D00C0 /* ListEventViewController.xib in Resources */,
+				BCED0D862ADCAFD2007D00C0 /* Assets.xcassets in Resources */,
+				BCED0D842ADCAFD0007D00C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12BE6086E0C5CD5AD1BA5EEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoEventApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2EC09421FDD759C44A15E0E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoEventApp/Pods-GeoEventApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoEventApp/Pods-GeoEventApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoEventApp/Pods-GeoEventApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCED0D752ADCAFD0007D00C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED0DB32ADD3AD7007D00C0 /* ListEventTableViewCell.swift in Sources */,
+				BCED0DA12ADCF294007D00C0 /* Extension+UIImage.swift in Sources */,
+				BCED0D942ADCB3BD007D00C0 /* GeoLocation.swift in Sources */,
+				BCED0D812ADCAFD0007D00C0 /* ViewController.swift in Sources */,
+				BCED0DB02ADD3A21007D00C0 /* View+Corner.swift in Sources */,
+				BCED0D7D2ADCAFD0007D00C0 /* AppDelegate.swift in Sources */,
+				BCED0D962ADCB3E7007D00C0 /* EventViewModel.swift in Sources */,
+				BCED0DAA2ADD3701007D00C0 /* ListEventViewController.swift in Sources */,
+				BCED0DB62ADD3FB5007D00C0 /* EventRelams.swift in Sources */,
+				BCED0DAD2ADD375A007D00C0 /* Extension+TableView.swift in Sources */,
+				BCED0D7F2ADCAFD0007D00C0 /* SceneDelegate.swift in Sources */,
+				BCED0DA32ADD21F5007D00C0 /* View+CustomAnnotationView.swift in Sources */,
+				BCED0DA62ADD288E007D00C0 /* AddEventViewController.swift in Sources */,
+				BCED0D992ADCB42E007D00C0 /* EventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCED0D822ADCAFD0007D00C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCED0D832ADCAFD0007D00C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCED0D872ADCAFD2007D00C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCED0D882ADCAFD2007D00C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCED0D8B2ADCAFD2007D00C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCED0D8C2ADCAFD2007D00C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCED0D8E2ADCAFD2007D00C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CE67520569D829D4B76FD3 /* Pods-GeoEventApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP77R9PHEA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoEventApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to see currect location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeri.GeoEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCED0D8F2ADCAFD2007D00C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 192E242DFB3D7183CF892B69 /* Pods-GeoEventApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HP77R9PHEA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoEventApp/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to see currect location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeri.GeoEventApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCED0D742ADCAFD0007D00C0 /* Build configuration list for PBXProject "GeoEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCED0D8B2ADCAFD2007D00C0 /* Debug */,
+				BCED0D8C2ADCAFD2007D00C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCED0D8D2ADCAFD2007D00C0 /* Build configuration list for PBXNativeTarget "GeoEventApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCED0D8E2ADCAFD2007D00C0 /* Debug */,
+				BCED0D8F2ADCAFD2007D00C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCED0D712ADCAFD0007D00C0 /* Project object */;
+}
