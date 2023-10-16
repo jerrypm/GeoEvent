@@ -17,6 +17,7 @@ GeoEvent is an iOS app developed in Swift that allows users to add and manage ev
 ## Getting Started
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
+- Please do `Pod Install` for the first time
 
 ### Prerequisites
 
